@@ -1,0 +1,81 @@
+2020-10-06T00:42:11.461350+00:00 app[api]: Initial release by user juan.sceno@outlook.com
+2020-10-06T00:42:11.461350+00:00 app[api]: Release v1 created by user juan.sceno@outlook.com
+2020-10-06T00:42:11.999020+00:00 app[api]: Release v2 created by user juan.sceno@outlook.com
+2020-10-06T00:42:11.999020+00:00 app[api]: Enable Logplex by user juan.sceno@outlook.com
+2020-10-06T00:43:50.000000+00:00 app[api]: Build started by user juan.sceno@outlook.com
+2020-10-06T00:44:16.389407+00:00 app[api]: Release v3 created by user juan.sceno@outlook.com
+2020-10-06T00:44:16.389407+00:00 app[api]: Deploy 1be8bd0d by user juan.sceno@outlook.com
+2020-10-06T00:44:16.408414+00:00 app[api]: Scaled to web@1:Free by user juan.sceno@outlook.com
+2020-10-06T00:44:20.487893+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-06T00:44:23.554338+00:00 app[web.1]: python: can't open file 'primos.py': [Errno 2] No such file or directory
+2020-10-06T00:44:23.628811+00:00 heroku[web.1]: Process exited with status 2
+2020-10-06T00:44:23.668791+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-06T00:44:23.672824+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-06T00:44:25.000000+00:00 app[api]: Build succeeded
+2020-10-06T00:44:26.605259+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-06T00:44:29.251021+00:00 app[web.1]: python: can't open file 'primos.py': [Errno 2] No such file or directory
+2020-10-06T00:44:29.306884+00:00 heroku[web.1]: Process exited with status 2
+2020-10-06T00:44:29.342257+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-06T00:45:01.991573+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=juanac03.herokuapp.com request_id=29909fe5-8324-4c9a-9e10-916c9da7260b fwd="201.93.97.70" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-06T00:45:02.312000+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=juanac03.herokuapp.com request_id=2f14d145-b928-4fa9-836a-5c25a45a9e52 fwd="201.93.97.70" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-06T00:47:56.500512+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=juanac03.herokuapp.com request_id=a2d202b4-1d82-47da-b8ba-0a93c58d9dc0 fwd="201.93.97.70" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-06T00:47:56.680160+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=juanac03.herokuapp.com request_id=4abc0786-52d8-4c14-b178-ba013e2da28e fwd="201.93.97.70" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-06T00:48:15.000000+00:00 app[api]: Build started by user juan.sceno@outlook.com
+2020-10-06T00:48:37.460872+00:00 app[api]: Deploy fca3a74b by user juan.sceno@outlook.com
+2020-10-06T00:48:37.460872+00:00 app[api]: Release v4 created by user juan.sceno@outlook.com
+2020-10-06T00:48:37.637677+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-06T00:48:40.453239+00:00 heroku[web.1]: Starting process with command `python programa_primos.py`
+2020-10-06T00:48:42.692258+00:00 app[web.1]: * Serving Flask app "programa_primos" (lazy loading)
+2020-10-06T00:48:42.692277+00:00 app[web.1]: * Environment: production
+2020-10-06T00:48:42.692308+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-06T00:48:42.692341+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-06T00:48:42.692369+00:00 app[web.1]: * Debug mode: off
+2020-10-06T00:48:42.711204+00:00 app[web.1]: * Running on http://0.0.0.0:45349/ (Press CTRL+C to quit)
+2020-10-06T00:48:43.192989+00:00 heroku[web.1]: State changed from starting to up
+2020-10-06T00:48:45.000000+00:00 app[api]: Build succeeded
+2020-10-06T00:49:05.045056+00:00 app[web.1]: [2020-10-06 00:49:05,044] ERROR in app: Exception on / [GET]
+2020-10-06T00:49:05.045081+00:00 app[web.1]: Traceback (most recent call last):
+2020-10-06T00:49:05.045082+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 2284, in wsgi_app
+2020-10-06T00:49:05.045082+00:00 app[web.1]: response = self.full_dispatch_request()
+2020-10-06T00:49:05.045083+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1808, in full_dispatch_request
+2020-10-06T00:49:05.045083+00:00 app[web.1]: return self.finalize_request(rv)
+2020-10-06T00:49:05.045083+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1823, in finalize_request
+2020-10-06T00:49:05.045084+00:00 app[web.1]: response = self.make_response(rv)
+2020-10-06T00:49:05.045084+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1949, in make_response
+2020-10-06T00:49:05.045084+00:00 app[web.1]: 'The view function did not return a valid response. The'
+2020-10-06T00:49:05.045085+00:00 app[web.1]: TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+2020-10-06T00:49:05.045647+00:00 app[web.1]: 10.7.193.239 - - [06/Oct/2020 00:49:05] "GET / HTTP/1.1" 500 -
+2020-10-06T00:49:05.046236+00:00 heroku[router]: at=info method=GET path="/" host=juanac03.herokuapp.com request_id=5e8e7b66-8573-4eea-9205-200f299b96d7 fwd="201.93.97.70" dyno=web.1 connect=0ms service=12ms status=500 bytes=449 protocol=https
+2020-10-06T00:49:05.234373+00:00 app[web.1]: 10.7.193.239 - - [06/Oct/2020 00:49:05] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-06T00:49:05.234985+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=juanac03.herokuapp.com request_id=095fc968-874d-470c-94e2-7e6234dbdf8c fwd="201.93.97.70" dyno=web.1 connect=0ms service=15ms status=404 bytes=379 protocol=https
+2020-10-06T00:49:24.314856+00:00 app[web.1]: [2020-10-06 00:49:24,314] ERROR in app: Exception on / [GET]
+2020-10-06T00:49:24.314866+00:00 app[web.1]: Traceback (most recent call last):
+2020-10-06T00:49:24.314867+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 2284, in wsgi_app
+2020-10-06T00:49:24.314867+00:00 app[web.1]: response = self.full_dispatch_request()
+2020-10-06T00:49:24.314868+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1808, in full_dispatch_request
+2020-10-06T00:49:24.314868+00:00 app[web.1]: return self.finalize_request(rv)
+2020-10-06T00:49:24.314869+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1823, in finalize_request
+2020-10-06T00:49:24.314869+00:00 app[web.1]: response = self.make_response(rv)
+2020-10-06T00:49:24.314869+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1949, in make_response
+2020-10-06T00:49:24.314870+00:00 app[web.1]: 'The view function did not return a valid response. The'
+2020-10-06T00:49:24.314871+00:00 app[web.1]: TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+2020-10-06T00:49:24.315194+00:00 app[web.1]: 10.7.193.239 - - [06/Oct/2020 00:49:24] "GET / HTTP/1.1" 500 -
+2020-10-06T00:49:24.315842+00:00 heroku[router]: at=info method=GET path="/" host=juanac03.herokuapp.com request_id=f59a1b52-305a-461d-a797-be3e8880c2b6 fwd="201.93.97.70" dyno=web.1 connect=0ms service=11ms status=500 bytes=449 protocol=https
+2020-10-06T00:51:26.000000+00:00 app[api]: Build started by user juan.sceno@outlook.com
+2020-10-06T00:51:49.757406+00:00 app[api]: Release v5 created by user juan.sceno@outlook.com
+2020-10-06T00:51:49.757406+00:00 app[api]: Deploy f8fdecc4 by user juan.sceno@outlook.com
+2020-10-06T00:51:50.058787+00:00 heroku[web.1]: Restarting
+2020-10-06T00:51:50.070168+00:00 heroku[web.1]: State changed from up to starting
+2020-10-06T00:51:50.824761+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-06T00:51:51.091205+00:00 heroku[web.1]: Process exited with status 143
+2020-10-06T00:51:54.604358+00:00 heroku[web.1]: Starting process with command `python programa_primos.py`
+2020-10-06T00:51:58.000000+00:00 app[api]: Build succeeded
+2020-10-06T00:51:59.255148+00:00 app[web.1]: * Serving Flask app "programa_primos" (lazy loading)
+2020-10-06T00:51:59.257584+00:00 app[web.1]: * Environment: production
+2020-10-06T00:51:59.257679+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-06T00:51:59.257754+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-06T00:51:59.257889+00:00 app[web.1]: * Debug mode: off
+2020-10-06T00:51:59.376911+00:00 app[web.1]: * Running on http://0.0.0.0:41128/ (Press CTRL+C to quit)
+2020-10-06T00:51:59.723395+00:00 heroku[web.1]: State changed from starting to up
+2020-10-06T00:52:05.649307+00:00 app[web.1]: 10.35.227.185 - - [06/Oct/2020 00:52:05] "GET / HTTP/1.1" 200 -
+2020-10-06T00:52:05.657627+00:00 heroku[router]: at=info method=GET path="/" host=juanac03.herokuapp.com request_id=40e8bbcf-c8b0-4cad-a05e-65a56379c17b fwd="201.93.97.70" dyno=web.1 connect=1ms service=51ms status=200 bytes=626 protocol=https
