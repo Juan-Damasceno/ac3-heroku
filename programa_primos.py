@@ -6,12 +6,10 @@ app = Flask(__name__)
 
 @app.route('/')
 def nao_entre_em_panico():
-
     primos = "2, "
     lista = []
     acumulador = 0
     numero = 3
-
     while len(lista) < 99:
         for i in range(1, (numero+1)):
             if numero % i == 0:
@@ -21,6 +19,7 @@ def nao_entre_em_panico():
             lista.append(numero)
         acumulador = 0
         numero += 1
+    return primos
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
